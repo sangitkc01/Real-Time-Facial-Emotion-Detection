@@ -6,6 +6,8 @@ from keras.models import model_from_json
 from keras_preprocessing.image import img_to_array
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 
+
+
 # load model
 emotion_dict = {0:'angry', 1 :'disgust', 2: 'fear', 3:'happy', 4: 'sad', 5:'surprise', 6:'neutral'}
 
@@ -56,7 +58,7 @@ def main():
     activiteis = ["Home", "Webcam Face Detection", "About"]
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
-        """ Developed by Sangit KC, Narayan Pokhrel and Shohel Mansuri    
+        """Developed by Sangit KC, Narayan Pokhrel and Shohel Mansuri    
             Email : kc.sangeet680@gmail.com  
             [LinkedIn] (https://www.linkedin.com/sangeet-kc-6b26811b5)""")
     if choice == "Home":
