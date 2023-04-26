@@ -56,7 +56,7 @@ def main():
     activiteis = ["Home", "Webcam Face Detection", "About"]
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
-        """ Developed by Sangit KC    
+        """ Developed by Sangit KC, Narayan Pokhrel and Shohel Mansuri    
             Email : kc.sangeet680@gmail.com  
             [LinkedIn] (https://www.linkedin.com/sangeet-kc-6b26811b5)""")
     if choice == "Home":
@@ -87,7 +87,7 @@ def main():
 
         html_temp4 = """
                              		<div style="background-color:#98AFC7;padding:10px">
-                             		<h4 style="color:white;text-align:center;">This Application is developed by Sangit KC using Streamlit Framework, Opencv, Tensorflow and Keras library for demonstration purpose. If you're on LinkedIn and want to connect, just click on the link in sidebar and shoot me a request. If you have any suggestion or wnat to comment just write a mail at kc.sangeet680@gmail.com. </h4>
+                             		<h4 style="color:white;text-align:center;">This Application is developed by Sangit KC, Narayan Pokhrel and Shohel Mansuri using Streamlit Framework, Opencv, Tensorflow and Keras library for demonstration purpose. If you're on LinkedIn and want to connect, just click on the link in sidebar and shoot me a request. If you have any suggestion or wnat to comment just write a mail at kc.sangeet680@gmail.com. </h4>
                              		<h4 style="color:white;text-align:center;">Thanks for Visiting</h4>
                              		</div>
                              		<br></br>
