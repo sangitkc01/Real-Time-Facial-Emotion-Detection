@@ -1,11 +1,8 @@
 numpy
 streamlit
-seaborn
 pandas
 matplotlib
 scikit-learn
 keras
 streamlit-webrtc
-tensorflow-cpu
 opencv-contrib-python-headless
-tensorflow
